@@ -1,0 +1,353 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  body{
+    background-color: #202020;
+    color: white;
+    font-family: helvetica;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+  }
+  .page{
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 400px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: #202020;
+  }
+
+
+  .navBar{
+    position: fixed;
+    width: 100%;
+   z-index: 10;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+  
+    box-shadow: 0 5px 20px -15px black;
+    backdrop-filter: blur(10px); 
+    margin-bottom: 20px;
+    height: 90px;
+  }
+  .navBarLi:hover{
+    background-position: -100%;
+  }
+  
+  .navBar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    list-style-type: none;
+    margin-right: 20px;
+  }
+  
+  .navBarLi{
+    margin: 5px 20px;
+    cursor: pointer;
+    font-weight: 900;
+    text-decoration: none;
+    background: linear-gradient(to right, #CCC 50%, #FF5858 50%, #CC2E5D);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+  }
+  
+  .navLogo{
+    margin-left: 40px;
+  }
+      
+      #firstline{
+        color: blue;
+      
+    }
+    
+
+    .text1{
+      height: 250px;
+      width: 500px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .text2{
+      display: flex;
+      min-height: 400px;
+     font-size: 50px;
+     position:absolute;
+     left: 425px;
+    color: white;
+      height: fit-content;
+      width: 50%;
+
+    }
+    
+
+
+    .text3{
+      display: flex;
+     top: 250px;
+     font-size: 40px;
+    position: absolute;
+     left: 435px;
+    color: blue;
+      height: fit-content;
+    }
+
+
+.con{
+  display: flex;
+  position: absolute;
+  top: 325px;
+  height: fit-content;
+  width: 25%;
+  font-size: 20px;
+  left: 435px;
+}
+
+.con2{
+  text-size-adjust: auto;
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  left: 435px;
+}
+
+.contact{
+  display: flex;
+  height: 500px;
+ 
+}
+
+    .resume{
+      color: inherit;
+      text-decoration: none;
+    }
+    
+    .resume:hover{
+      text-decoration: underline;
+    }
+    
+    .logo{
+      max-width: 75px;
+    }
+
+    #about{
+      padding-top: 50px;
+    }
+    .padding{
+      padding-top: 95px;
+    }
+    .page1{
+      min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: #202020;
+    }
+
+    .page2{
+      min-height: 200vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      background: #202020;
+      overflow-wrap:normal;
+    }
+
+    .page3{
+      min-height: 150vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      background: #202020;
+    }
+  
+  
+
+    
+    .photo{
+      display: flex;
+      width:15%;
+      position: relative;
+      top: 25px;
+      left: 350px;
+      border-radius: 25px;
+    }
+  
+    .photo1{
+      display: flex;
+      height: 400px;
+      width:600px;
+      position: relative;
+      top: -200px;
+      left: 100px;
+      border-radius: 25px;
+      border: solid blue;
+      cursor: pointer;
+    }
+  
+
+  
+    .photo3{
+      display: block;
+      height: 110%;
+      width: 105%;
+      position: relative;
+      top: 100px;
+      left: 100px;
+      border-radius: 25px;
+      border: solid blue;
+      cursor: pointer;
+      float: left;
+    }
+  .tex{
+    position: absolute;
+    text-align: center;
+  }
+  .tex1{
+    margin: 10px;
+    font-size: 25px;
+    position: relative;
+    left: 145px;
+    top: 80px;
+    width: fit-content;
+   height: fit-content;
+   white-space: nowrap;
+  }
+
+  .tex2{
+    text-align: center;
+    position: relative;
+    top: -300px;
+    left: 650px;
+    font-size: 50px;
+    width: fit-content;
+    height: fit-content;
+  }
+
+  .cent{
+    text-align: center;
+    margin: 30px;
+    font-size: 25px;
+  }
+
+  .tex3{
+    position: relative;
+    top: -365px;
+    background-color: black;
+    border-radius: 25px;
+    left: 200px;
+    font-size: 25px;
+  }
+  .tex4{
+    position: relative;
+    top: 325px;
+    left: -250px;
+    background-color: black;
+    border-radius: 25px;
+    height: 100%;
+   max-width: 100%;
+  }
+
+
+  .tex6{
+    display: flex;
+    position: relative;
+    top: -300px;
+    left: 225px;
+    font-size: 50px;
+    white-space: nowrap;
+    
+  }
+
+
+  .tex7{
+    display: flex;
+ position: absolute;
+ height: fit-content, auto;
+  width: 700px;
+  font-size: 25px;
+  background-color: black;
+ padding: 60px;
+  top: -250px;
+  left: -130px;
+  text-align: center;
+  margin: 35px;
+  }
+
+  .email{
+    position: relative;
+    color: white;
+    font-size: 25px;
+    white-space: nowrap;
+  height: fit-content;
+  top: 100px;
+  left: 145px;
+  }
+  #rainbow {
+    text-align: center;
+    font-size: 32px;
+    font-family: monospace;
+    letter-spacing: 5px;
+    animation: colorRotate 5s linear 0s infinite;
+  }
+  
+  @keyframes colorRotate {
+    from {
+      color: #6666ff;
+    }
+    10% {
+      color: #0099ff;
+    }
+    50% {
+      color: #00ff00;
+    }
+    75% {
+      color: #ff3399;
+    }
+    100% {
+      color: #6666ff;
+    }
+  }
+  .githubIcon{
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: -250px;
+    height: 100px;
+    width: 50;
+    cursor: pointer;
+  }
+
+  .linkedinIcon{
+    display: flex;
+    position: relative;
+    top: 200px;
+    left: -150px;
+    height: 100px;
+    width: 50;
+    cursor: pointer;
+  }
+
+
+  
