@@ -206,14 +206,24 @@
       cursor: pointer;
     }
   
+    .photo2{
+      display: flex;
+      height: 400px;
+      width:600px;
+      top: -250px;
+      left: 100px;
+      position: relative;
+      border-radius: 25px;
+      border: solid blue;
+    }
 
   
     .photo3{
       display: block;
-      height: 110%;
-      width: 105%;
+      height: 400px;
+      width: 600px;
       position: relative;
-      top: 100px;
+      top: -150px;
       left: 100px;
       border-radius: 25px;
       border: solid blue;
@@ -247,13 +257,14 @@
 
   .cent{
     text-align: center;
-    margin: 30px;
     font-size: 25px;
+    width: 300px;
+    margin: 20px;
   }
 
   .tex3{
     position: relative;
-    top: -365px;
+    top: -185px;
     background-color: black;
     border-radius: 25px;
     left: 200px;
@@ -261,14 +272,19 @@
   }
   .tex4{
     position: relative;
-    top: 325px;
-    left: -250px;
+    top: 275px;
+    left: -145px;
     background-color: black;
     border-radius: 25px;
-    height: 100%;
-   max-width: 100%;
   }
 
+  .tex5{
+    position: relative;
+    top: -600px;
+    right: 400px;
+    background-color: black;
+    border-radius: 25px;
+  }
 
   .tex6{
     display: flex;
