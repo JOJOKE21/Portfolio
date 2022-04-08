@@ -1,11 +1,15 @@
 import React from 'react';
 import Reactimg from '../../Assets/Game1.jpg'
 import Reactimg2 from '../../Assets/Calc.jpg'
+import Reactimg3 from '../../Assets/SharedScreenshot-notflix.jpg'
 
 export default function Portfolio() {
   return <div className='page2 padding' id="portfolio">
     <div>
     <h1 className='tex2' id='rainbow'> Projects </h1>
+        <img className='photo2' src={Reactimg3}></img>
+      
+
       <a target="_blank" href='https://jojoke21.github.io/Game-Project/'>
         <img className='photo1' src={Reactimg}></img>
       </a>
@@ -26,9 +30,15 @@ export default function Portfolio() {
     <h2 className='cent'>Calculator</h2>
     <p className='cent'>This is the project where we had to make a working calculator. Using the knowledge that we learned so far
       we had to make a functioning calculator and we also had to make it unique to us the person making the calculator.
-
     </p> 
     <p className='cent'>Langueges used: HTML, CSS, JavaScript</p>
+    </div>
+    <div className='tex5'>
+    <h2 className='cent'>Notflix</h2>
+    <p className='cent'>This is the project where we had to make a copy of Netflix and put our own spin on it. Using Api's and fectes we were able to get 
+    current and old movies and tv shows. The idea was to make a copy cat of netflix but not to a T. 
+    </p> 
+    <p className='cent'>Langueges used: HTML, CSS, JavaScript, React</p>
     </div>
   </div>
 }
