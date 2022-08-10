@@ -18,7 +18,7 @@ export default function NavBar() {
           <Link className='navBarLi' to='contact' smooth={true}>
             Contact
           </Link>
-          <a className='navBarLi resume' target='_blank' href='https://docs.google.com/document/d/1k7qVUuoE1_k2VHOObTzjq3KAvE3w9DsoCyovAu-NLd8/edit?usp=sharing'>
+          <a className='navBarLi resume' target='_blank' href='https://docs.google.com/document/d/1uq2ir7UnkqUV2q0RphCqE6EywdC3zT1eLix3y0xVI5w/edit?usp=sharing'>
             Resume
           </a>
         </ul>
